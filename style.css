@@ -1,0 +1,61 @@
+* {
+  box-sizing: border-box;
+  font-family: monospace;
+  margin: 0;
+  padding: 0;
+}
+
+.time-score {
+    margin-top: 3rem;
+  font-size: 1.5rem;
+  width: 60%;
+  margin-inline: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+h2 {
+  display: inline;
+  text-align: center;
+}
+body {
+  background-color: aqua;
+  width: 100vw;
+}
+.grid {
+  margin-inline: auto;
+  margin-top: 3rem;
+  width: 450px;
+  height: 450px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  border: 1px solid black;
+}
+
+.mole {
+  background-image: url('./bird.png');
+  background-size: cover;
+}
+
+.level{
+    width: 40%;
+    margin-inline: auto;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.level button {
+    padding: 0.5em;
+    font-size: 1.5rem;
+    border-radius: 5px;
+}
+
+.level button:active{
+    background-color: red;
+}
